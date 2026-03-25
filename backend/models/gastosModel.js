@@ -7,7 +7,7 @@ const gastosSchema = mongoose.Schema({
     },
 
     importe: {
-        type: String,
+        type: Number,
         required: [true, 'Por favor teclea el importe del gasto']
     },
 }, {
